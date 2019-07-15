@@ -2,19 +2,8 @@
 
 ## Instalação
 
-  1. Entre no servidor via SSH:
+  1. Entre no servidor via SSH com usuário root no vpsXXXXX.publiccloud.com.br e utilize a senha vpschallenge1.
 
-    $ ssh root@vpsXXXXX.publiccloud.com.br
+  2. Clone o repositório https://github.com/vpschallenge/app.git  no diretório `root` do Apache e mova para a pasta html.
 
-
-  2. Clone este repositório no diretório `root` do Apache:
-
-    $ cd /var/www
-    $ git clone https://github.com/vpschallenge/app.git 
-    $ rm -rf html
-    $ mv app html
-
-
-  3. Acesse a aplicação pelo browser:
-
-    http://vpsXXXXX.publiccloud.com.br
+  3. Acesse a aplicação pelo browser com a url http://vpsXXXXX.publiccloud.com.br.
